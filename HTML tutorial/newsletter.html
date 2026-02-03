@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Newsletter signup</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+
+
+<body>
+  <h1>Join Our Newsletter</h1>
+
+  <p>best newsletter ever mayn</p>
+
+  <form action="/subsribe" method="POST">
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" required>
+    <br><br>
+
+    <label for="lname"> Last Name:</label>
+    <input type="text" id="lname" name="lname" pattern="[A-Za-z]+" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+
+    <fieldset>
+      <legend>Preferred Format:</legend>
+      <input type="radio" id="html-format" name="format" value="html" checked>
+      <label for="html-format">HTML</label>
+
+      <input type="radio" id="text-format" name="format" value="text">
+      <label for="text-format">Text Only</label>
+    </fieldset>
+    <br>
+
+    <label for="topics">Topics of Interest (select all that apply)</label><br>
+    <input type="checkbox" id="news" name="topics" value="news">
+    <label for="news">News</label>
+
+    <input type="checkbox" id="offers" name="topics" value="offers">
+    <label for="offers">Special Offers</label>
+
+    <input type="checkbox" id="updates" name="topics" value="updates">
+    <label for="updates">Product Updates</label>
+    <br><br>
+   
+    <label for="country">Country</label>
+    <select name="country" id="name"</select>
+
+      <option value="">--Select--</option>
+      <option value="us">United States</option>
+      <option value="ca">Canada</option>
+      <option value="uk">United Kingdom</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Subsribe</button>
+
+  </form>
+
+  <ul>
+
+    <li>one</li>
+    <ol>
+      <li>high</li>
+      <li>low</li>
+    </ol>
+    <li>two</li>
+    <li>three</li>
+
+  </ul>
+
+<div><p> this paragraph hass css inline style which is one of three methods to apply css</p></div>
+
+<p class="highlight"> this paragraph has a yellow background</p>
+
+
+<p id="idpara">im using the id selector to identify unique elements</p>
+
+
+</body>
+</html>
